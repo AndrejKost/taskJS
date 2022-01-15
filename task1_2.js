@@ -1,5 +1,4 @@
 var message, login = 'Owner';
-
 //if (login == 'Pitter') {
 //    message = 'Hi';
 //} else if (login == 'Owner') {
@@ -9,7 +8,6 @@ var message, login = 'Owner';
 //} else {
 //    message = '';
 //}
-
 message = (login == 'Pitter') ?
     'Hi' :
     (login == 'Owner') ?
