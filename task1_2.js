@@ -8,6 +8,7 @@ var message, login = 'Owner';
 //} else {
 //    message = '';
 //}
+
 message = (login == 'Pitter') ?
     'Hi' :
     (login == 'Owner') ?
