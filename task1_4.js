@@ -1,5 +1,4 @@
 const a = 3;
-
 switch (a) {
     case 0:
         console.log( 0 );
@@ -10,4 +9,5 @@ switch (a) {
     case 2:
     case 3:
         console.log( '2,3');
+        break;
 }
