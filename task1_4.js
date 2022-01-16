@@ -1,14 +1,12 @@
-var a = 1;
-switch (true) {
-    case (a === 0):
+const a = 3;
+switch (a) {
+    case 0:
         console.log( 0 );
         break;
-    case (a === 1):
+    case 1:
         console.log( 1 );
         break;
-    case ( a === 2 ||  a === 3 ):
+    case 2:
+    case 3:
         console.log( '2,3');
 }
-
-
-
