@@ -4,7 +4,5 @@ for (var i of arr) {
     if (i == 4) {
         console.log(`Есть! ${i}`);
         break;
-    } else {
-        break;
     }
 }
